@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omixa: Clean your data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 28 28" width="26" height="26">
+        <rect x="2" y="4" width="24" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M2 11h24" stroke="currentColor" stroke-width="2"/>
+        <path d="M9 4v20" stroke="currentColor" stroke-width="2"/>
+        <circle cx="5.5" cy="7.5" r="1" fill="currentColor"/>
+      </svg>
+    </span>
+    Omixa
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1>Messy spreadsheet in.<br>Clean dataset out.</h1>
+    <p class="lede">Upload a CSV or Excel file, pick which rules to run, and Omixa fixes formatting, fills gaps, and drops duplicates. It all happens right in your browser, and nothing is stored.</p>
+
+    <div class="preview-strip" aria-hidden="true">
+      <div class="mini-table messy">
+        <div class="mini-row head"><span>name</span><span>city</span></div>
+        <div class="mini-row"><span> raj &nbsp;</span><span>Delhi</span></div>
+        <div class="mini-row"><span>Priya</span><span>&nbsp;</span></div>
+        <div class="mini-row dup"><span>Priya</span><span>&nbsp;</span></div>
+      </div>
+      <svg class="preview-arrow" viewBox="0 0 40 24" width="40" height="24"><path d="M2 12h32M26 4l10 8-10 8" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="mini-table tidy">
+        <div class="mini-row head"><span>name</span><span>city</span></div>
+        <div class="mini-row"><span>Raj</span><span>Delhi</span></div>
+        <div class="mini-row"><span>Priya</span><span>Unknown</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card dropzone-card">
+    <div class="drop" id="drop" role="button" tabindex="0">
+      <svg class="drop-icon" viewBox="0 0 48 48" width="40" height="40"><path d="M24 6v24m0-24 9 9m-9-9-9 9" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 34v4a4 4 0 0 0 4 4h24a4 4 0 0 0 4-4v-4" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      <p class="big">Drop a file here, or click to browse</p>
+      <p class="muted">.csv · .xlsx · .xls, up to 25MB</p>
+      <div id="fileName" class="file-chip"></div>
+    </div>
+    <input type="file" id="fileInput" accept=".csv,.xlsx,.xls">
+
+    <div class="steps" id="steps">
+      <div class="step" data-step="upload"><span class="step-dot">1</span>Upload</div>
+      <div class="step" data-step="review"><span class="step-dot">2</span>Review</div>
+      <div class="step" data-step="clean"><span class="step-dot">3</span>Clean</div>
+      <div class="step" data-step="download"><span class="step-dot">4</span>Download</div>
+    </div>
+
+    <section class="report-card hidden" id="reportCard">
+      <div class="report-head">
+        <div class="score-badge" id="scoreBadge"><span id="scoreNum">-</span></div>
+        <div>
+          <h3 class="report-title">Data quality report</h3>
+          <p class="report-sub" id="reportSub"></p>
+        </div>
+      </div>
+      <div class="findings" id="findings"></div>
+      <p class="hint" id="noFindings" style="display:none;">No issues found. This file looks clean already.</p>
+    </section>
+
+    <div class="rules">
+      <label class="rule"><input type="checkbox" value="column_names" checked><span class="rule-body"><strong>Clean column names</strong><em>tidies headers into a consistent snake_case</em></span></label>
+      <label class="rule"><input type="checkbox" value="formatting" checked><span class="rule-body"><strong>Fix formatting</strong><em>trims stray spaces, tidies whitespace</em></span></label>
+      <label class="rule"><input type="checkbox" value="missing_token_normalization" checked><span class="rule-body"><strong>Recognize blank/N-A style values</strong><em>treats "N/A", "null", "-", etc. as missing</em></span></label>
+      <label class="rule"><input type="checkbox" value="numeric_text_cleaning" checked><span class="rule-body"><strong>Clean numeric text</strong><em>strips $, commas, % from numbers stored as text</em></span></label>
+      <label class="rule"><input type="checkbox" value="boolean_standardization" checked><span class="rule-body"><strong>Standardize booleans</strong><em>Yes/No, True/False, Y/N → true/false</em></span></label>
+      <label class="rule"><input type="checkbox" value="categorical_standardization" checked><span class="rule-body"><strong>Standardize categories</strong><em>merges "Male"/"MALE"/"male"-style variants</em></span></label>
+      <label class="rule"><input type="checkbox" value="email_cleaning" checked><span class="rule-body"><strong>Clean emails</strong><em>trims whitespace, lowercases addresses</em></span></label>
+      <label class="rule"><input type="checkbox" value="phone_cleaning" checked><span class="rule-body"><strong>Clean phone formatting</strong><em>collapses accidental repeated punctuation</em></span></label>
+      <label class="rule"><input type="checkbox" value="date_standardization" checked><span class="rule-body"><strong>Standardize dates</strong><em>unambiguous dates → YYYY-MM-DD</em></span></label>
+      <label class="rule"><input type="checkbox" value="missing_values" checked><span class="rule-body"><strong>Fill gaps</strong><em>median for numbers, "Unknown" for text</em></span></label>
+      <label class="rule"><input type="checkbox" value="duplicates" checked><span class="rule-body"><strong>Remove duplicates</strong><em>keeps the first occurrence</em></span></label>
+    </div>
+
+    <div class="footer-actions">
+      <button id="runBtn" class="primary" disabled>Clean my data</button>
+      <button class="ghost hidden" id="downloadBtn">Download cleaned file</button>
+      <button class="ghost hidden" id="resetBtn">Start over</button>
+    </div>
+    <div class="stage" id="stage"></div>
+  </section>
+
+  <section class="card results hidden" id="results">
+    <div class="stats" id="stats"></div>
+    <div id="detailBlocks"></div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

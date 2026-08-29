@@ -1,0 +1,201 @@
+employee_id,first_name,last_name,email,phone,signup_date,age,country,department,annual_salary
+1,Chidi,Brown,chidi.brown1@gmail.com,+1-959-481-5012,2021-07-03,30,United Kingdom,Marketing,99954.18
+2,Mary,Smith,mary.smith2@gmail.com,+1-423-438-9279,2025-10-01,23,France,Finance,113762.16
+3,Adaeze,Bello,adaeze.bello3@companymail.com,+1-425-659-5557,2019-01-27,32,India,Operations,65565.85
+4,Michael,Okafor,michael.okafor4@gmail.com,+1-294-589-2584,2023-01-10,44,Australia,Human Resources,123784.11
+5,Emeka,Chukwu,emeka.chukwu5@gmail.com,+1-587-280-5803,2026-01-18,61,Kenya,Finance,112502.9
+6,Mary,Davis,mary.davis6@yahoo.com,+1-281-438-2654,2023-04-06,39,South Africa,Operations,52891.95
+7,Barbara,Miller,barbara.miller7@yahoo.com,+1-918-899-2169,2025-10-31,62,Nigeria,Finance,52974.27
+8,Richard,Rodriguez,richard.rodriguez8@outlook.com,+1-901-532-1916,2021-07-27,24,Kenya,Support,64451.5
+9,Michael,Abubakar,michael.abubakar9@yahoo.com,+1-417-871-9179,2023-06-09,63,South Africa,Sales,64136.82
+10,Linda,Bello,linda.bello10@yahoo.com,+1-964-798-8019,2025-07-18,47,Kenya,Finance,144705.84
+11,Robert,Nwosu,robert.nwosu11@companymail.com,+1-293-973-1771,2020-03-25,31,Nigeria,Support,100604.99
+12,Richard,Eze,richard.eze12@companymail.com,+1-741-457-1188,2026-08-18,29,France,Human Resources,119545.86
+13,David,Brown,david.brown13@yahoo.com,+1-645-361-8433,2019-01-14,38,France,Sales,90844.98
+14,Patricia,Martinez,patricia.martinez14@outlook.com,+1-356-582-3646,2025-01-18,55,United States,Operations,88746.63
+15,Patricia,Adeyemi,patricia.adeyemi15@yahoo.com,+1-445-259-4946,2025-05-12,27,United Kingdom,Research,124762.56
+16,Bola,Bello,bola.bello16@outlook.com,+1-331-875-8787,2025-03-01,32,Germany,Support,141079.92
+17,Chinedu,Bello,chinedu.bello17@outlook.com,+1-930-519-7537,2026-07-14,63,Kenya,Research,133957.55
+18,Joseph,Brown,joseph.brown18@outlook.com,+1-430-265-6539,2019-03-28,59,France,Finance,99728.41
+19,James,Williams,james.williams19@gmail.com,+1-434-269-1514,2022-09-15,26,France,Finance,65632.5
+20,Jessica,Miller,jessica.miller20@outlook.com,+1-940-784-8744,2021-09-22,52,India,Finance,45375.84
+21,Ngozi,Balogun,ngozi.balogun21@yahoo.com,+1-633-620-8651,2019-08-10,65,United Kingdom,Engineering,79288.34
+22,David,Brown,david.brown22@outlook.com,+1-396-394-9786,2024-01-12,30,India,Sales,65639.97
+23,Linda,Williams,linda.williams23@companymail.com,+1-763-300-1828,2026-04-25,56,United States,Marketing,136900.37
+24,Ifeoma,Davis,ifeoma.davis24@outlook.com,+1-616-697-8886,2021-05-25,47,United States,Sales,76687.04
+25,Richard,Rodriguez,richard.rodriguez25@companymail.com,+1-492-633-8973,2020-09-26,34,Germany,Finance,141558.03
+26,Charles,Bello,charles.bello26@gmail.com,+1-965-521-1936,2019-07-25,59,South Africa,Sales,41256.75
+27,Thomas,Williams,thomas.williams27@outlook.com,+1-270-809-2113,2026-07-28,37,India,Marketing,138575.57
+28,Charles,Davis,charles.davis28@gmail.com,+1-834-283-7868,2026-05-16,59,Australia,Operations,137817.69
+29,Michael,Okafor,michael.okafor29@outlook.com,+1-471-605-3144,2026-07-14,63,Germany,Research,69779.49
+30,Bola,Williams,bola.williams30@gmail.com,+1-669-836-2638,2019-10-28,56,Canada,Human Resources,49570.22
+31,Barbara,Williams,barbara.williams31@outlook.com,+1-578-491-3584,2023-11-30,56,Germany,Engineering,108464.95
+32,Sarah,Martinez,sarah.martinez32@gmail.com,+1-337-470-2891,2020-03-14,57,Nigeria,Human Resources,65993.19
+33,Michael,Okafor,michael.okafor33@outlook.com,+1-903-849-5325,2024-09-01,53,Germany,Engineering,45152.83
+34,Susan,Rodriguez,susan.rodriguez34@gmail.com,+1-203-541-3143,2026-02-22,38,Nigeria,Research,95684.85
+35,Susan,Bello,susan.bello35@gmail.com,+1-314-277-3442,2025-02-12,24,Kenya,Sales,82276.54
+36,Mary,Martinez,mary.martinez36@yahoo.com,+1-240-566-4441,2026-08-25,37,United Kingdom,Operations,120812.79
+37,Uche,Balogun,uche.balogun37@outlook.com,+1-442-366-3900,2023-08-16,23,Nigeria,Operations,121062.51
+38,Susan,Davis,susan.davis38@yahoo.com,+1-363-918-2771,2023-04-16,24,South Africa,Finance,56953.01
+39,Chinedu,Chukwu,chinedu.chukwu39@yahoo.com,+1-512-433-4652,2019-04-07,64,Canada,Support,71108.81
+40,Ifeoma,Williams,ifeoma.williams40@yahoo.com,+1-559-856-9346,2023-06-26,65,France,Operations,138316.09
+41,Patricia,Rodriguez,patricia.rodriguez41@outlook.com,+1-794-471-1626,2020-03-20,60,India,Operations,115139.96
+42,David,Balogun,david.balogun42@gmail.com,+1-594-790-4114,2021-11-09,24,India,Engineering,92191.24
+43,Tunde,Bello,tunde.bello43@outlook.com,+1-572-641-2146,2026-06-13,43,Australia,Operations,107972.62
+44,Patricia,Martinez,patricia.martinez44@yahoo.com,+1-882-618-6344,2023-07-07,40,France,Sales,56102.41
+45,Ngozi,Eze,ngozi.eze45@outlook.com,+1-830-782-5930,2023-07-22,57,United States,Human Resources,66560.51
+46,Susan,Abubakar,susan.abubakar46@yahoo.com,+1-676-652-8244,2026-07-30,35,France,Research,122310.89
+47,Tunde,Garcia,tunde.garcia47@gmail.com,+1-490-727-6491,2020-01-18,37,Germany,Finance,123721.92
+48,Robert,Smith,robert.smith48@gmail.com,+1-450-686-2193,2024-02-09,48,Australia,Finance,114018.05
+49,Richard,Okoro,richard.okoro49@companymail.com,+1-449-351-1090,2020-03-12,49,Canada,Sales,123452.08
+50,Adaeze,Nwosu,adaeze.nwosu50@companymail.com,+1-251-770-5082,2020-05-12,51,Nigeria,Research,108433.55
+51,Sarah,Uzo,sarah.uzo51@yahoo.com,+1-973-653-9270,2023-10-14,57,South Africa,Sales,116802.1
+52,Jessica,Chukwu,jessica.chukwu52@yahoo.com,+1-969-453-5543,2024-11-05,53,Canada,Human Resources,83385.99
+53,Adaeze,Martinez,adaeze.martinez53@outlook.com,+1-478-543-6238,2025-01-21,27,Nigeria,Sales,60438.76
+54,Adaeze,Jones,adaeze.jones54@outlook.com,+1-265-624-7678,2022-09-17,56,South Africa,Support,41849.23
+55,Amaka,Balogun,amaka.balogun55@companymail.com,+1-988-798-1320,2025-06-16,46,South Africa,Engineering,138701.58
+56,Elizabeth,Eze,elizabeth.eze56@companymail.com,+1-751-965-9947,2025-10-06,36,South Africa,Finance,65022.88
+57,Jessica,Smith,jessica.smith57@companymail.com,+1-544-884-7624,2020-11-07,51,Nigeria,Engineering,134762.17
+58,Charles,Abubakar,charles.abubakar58@gmail.com,+1-285-858-8022,2020-07-09,51,Nigeria,Engineering,63617.19
+59,David,Miller,david.miller59@companymail.com,+1-534-545-7211,2022-02-13,48,Germany,Marketing,86733.75
+60,Emeka,Bello,emeka.bello60@gmail.com,+1-558-429-2124,2026-04-23,24,United States,Finance,56929.68
+61,James,Uzo,james.uzo61@outlook.com,+1-444-329-8758,2026-07-05,29,Australia,Finance,86153.74
+62,William,Adeyemi,william.adeyemi62@outlook.com,+1-820-821-2876,2020-11-01,41,United Kingdom,Engineering,137177.59
+63,Charles,Eze,charles.eze63@companymail.com,+1-932-403-2245,2025-08-22,62,Canada,Marketing,111691.23
+64,Elizabeth,Uzo,elizabeth.uzo64@gmail.com,+1-779-242-6688,2024-12-22,49,Kenya,Marketing,90655.69
+65,David,Smith,david.smith65@companymail.com,+1-701-308-8102,2023-01-23,62,South Africa,Sales,82903.59
+66,Emeka,Nwosu,emeka.nwosu66@yahoo.com,+1-830-751-8921,2024-03-19,49,Australia,Human Resources,70453.5
+67,Linda,Williams,linda.williams67@yahoo.com,+1-661-449-8613,2025-05-23,61,India,Operations,38157.0
+68,Ifeoma,Okafor,ifeoma.okafor68@outlook.com,+1-699-417-6813,2021-11-24,43,Germany,Human Resources,96137.01
+69,Thomas,Miller,thomas.miller69@gmail.com,+1-447-937-7658,2024-06-24,57,Canada,Research,106049.32
+70,Jessica,Chukwu,jessica.chukwu70@gmail.com,+1-295-501-4630,2023-07-15,37,Germany,Operations,87058.65
+71,Thomas,Adeyemi,thomas.adeyemi71@companymail.com,+1-963-763-6419,2022-12-12,51,Germany,Human Resources,62654.4
+72,Patricia,Miller,patricia.miller72@yahoo.com,+1-322-960-9779,2021-01-28,34,Canada,Research,65414.96
+73,Charles,Nwosu,charles.nwosu73@yahoo.com,+1-302-398-5853,2021-07-20,45,Nigeria,Human Resources,36556.32
+74,Sarah,Jones,sarah.jones74@yahoo.com,+1-246-255-5786,2020-06-01,62,South Africa,Marketing,130999.17
+75,Charles,Martinez,charles.martinez75@companymail.com,+1-690-651-6582,2021-01-25,25,Germany,Research,47549.59
+76,John,Eze,john.eze76@companymail.com,+1-275-790-1878,2020-09-13,31,Australia,Human Resources,44369.9
+77,Linda,Brown,linda.brown77@companymail.com,+1-820-810-4697,2024-11-10,46,South Africa,Research,67708.84
+78,Charles,Balogun,charles.balogun78@yahoo.com,+1-782-835-1986,2025-11-02,28,Canada,Finance,64111.07
+79,John,Garcia,john.garcia79@outlook.com,+1-377-765-2229,2020-10-03,22,India,Research,110830.82
+80,Jessica,Martinez,jessica.martinez80@gmail.com,+1-437-495-5632,2024-02-03,26,Canada,Human Resources,121661.08
+81,Chidi,Abubakar,chidi.abubakar81@outlook.com,+1-635-317-9922,2021-07-09,63,Nigeria,Human Resources,125929.43
+82,John,Johnson,john.johnson82@outlook.com,+1-514-809-5728,2023-12-04,29,South Africa,Human Resources,111970.71
+83,William,Nwosu,william.nwosu83@companymail.com,+1-648-282-1653,2023-11-05,42,Australia,Human Resources,37845.14
+84,Linda,Abubakar,linda.abubakar84@gmail.com,+1-983-888-5415,2025-06-18,24,Nigeria,Research,92086.02
+85,Joseph,Rodriguez,joseph.rodriguez85@outlook.com,+1-799-646-9056,2020-01-09,52,Kenya,Support,71663.92
+86,Ngozi,Brown,ngozi.brown86@outlook.com,+1-537-621-9117,2022-03-26,64,India,Engineering,85030.85
+87,David,Rodriguez,david.rodriguez87@yahoo.com,+1-318-991-7622,2024-10-08,22,France,Research,80457.23
+88,Michael,Nwosu,michael.nwosu88@yahoo.com,+1-837-974-9167,2026-01-05,50,United States,Finance,64376.19
+89,Robert,Martinez,robert.martinez89@companymail.com,+1-915-696-2989,2019-04-29,62,Australia,Finance,113076.11
+90,Elizabeth,Bello,elizabeth.bello90@gmail.com,+1-765-617-2527,2021-07-09,29,South Africa,Marketing,106248.07
+91,Robert,Okoro,robert.okoro91@yahoo.com,+1-721-922-5479,2023-08-29,52,South Africa,Finance,85246.51
+92,Robert,Eze,robert.eze92@outlook.com,+1-813-720-3236,2019-10-13,39,India,Operations,137767.32
+93,Thomas,Rodriguez,thomas.rodriguez93@gmail.com,+1-489-943-5891,2025-08-01,59,South Africa,Sales,84120.21
+94,Jessica,Adeyemi,jessica.adeyemi94@yahoo.com,+1-765-981-9903,2023-03-26,51,Kenya,Finance,142885.21
+95,Linda,Abubakar,linda.abubakar95@companymail.com,+1-439-994-7730,2019-06-28,42,South Africa,Support,77468.66
+96,Ngozi,Jones,ngozi.jones96@companymail.com,+1-237-329-9229,2025-08-14,43,United Kingdom,Research,45968.29
+97,Chinedu,Chukwu,chinedu.chukwu97@gmail.com,+1-939-347-7717,2026-05-05,31,United Kingdom,Research,120967.78
+98,William,Okafor,william.okafor98@companymail.com,+1-865-282-6383,2026-07-25,56,India,Operations,103947.91
+99,Uche,Okoro,uche.okoro99@gmail.com,+1-832-270-4846,2026-01-29,65,Germany,Finance,117144.3
+100,Susan,Brown,susan.brown100@gmail.com,+1-654-370-5906,2019-04-29,24,Kenya,Engineering,67270.46
+101,Barbara,Balogun,barbara.balogun101@outlook.com,+1-450-743-7751,2025-05-07,65,Nigeria,Sales,54257.63
+102,Karen,Eze,karen.eze102@outlook.com,+1-709-797-3344,2021-08-09,51,Germany,Research,63085.94
+103,James,Chukwu,james.chukwu103@yahoo.com,+1-893-759-3588,2019-10-30,50,Kenya,Human Resources,105283.26
+104,Susan,Rodriguez,susan.rodriguez104@companymail.com,+1-509-403-7302,2024-06-02,28,Canada,Support,97911.5
+105,Charles,Martinez,charles.martinez105@yahoo.com,+1-222-874-7484,2022-01-29,22,Australia,Engineering,135167.86
+106,Emeka,Okoro,emeka.okoro106@yahoo.com,+1-994-435-6772,2021-06-16,62,Canada,Human Resources,109554.09
+107,Emeka,Jones,emeka.jones107@gmail.com,+1-842-861-1645,2022-06-19,50,United States,Operations,115559.57
+108,John,Martinez,john.martinez108@yahoo.com,+1-965-625-3877,2021-04-02,30,France,Operations,93393.76
+109,Chinedu,Rodriguez,chinedu.rodriguez109@outlook.com,+1-463-693-5835,2022-10-19,29,South Africa,Marketing,50483.27
+110,Linda,Eze,linda.eze110@yahoo.com,+1-292-604-1228,2021-12-19,56,United Kingdom,Research,75544.42
+111,Emeka,Rodriguez,emeka.rodriguez111@companymail.com,+1-853-580-2775,2026-07-27,36,South Africa,Engineering,103150.16
+112,Sarah,Okafor,sarah.okafor112@outlook.com,+1-863-264-8606,2022-05-22,63,India,Marketing,50375.47
+113,Mary,Martinez,mary.martinez113@companymail.com,+1-318-299-4846,2025-01-10,30,India,Research,75811.27
+114,Emeka,Bello,emeka.bello114@companymail.com,+1-801-960-3531,2023-08-27,63,United Kingdom,Research,102721.74
+115,William,Johnson,william.johnson115@yahoo.com,+1-422-654-8285,2021-08-25,45,United Kingdom,Operations,94891.24
+116,Chidi,Adeyemi,chidi.adeyemi116@gmail.com,+1-607-482-4109,2020-05-15,51,United Kingdom,Finance,105587.49
+117,Karen,Smith,karen.smith117@gmail.com,+1-541-449-3063,2025-05-01,35,United Kingdom,Finance,99502.14
+118,Amaka,Davis,amaka.davis118@yahoo.com,+1-992-351-1046,2022-02-09,31,Nigeria,Human Resources,122836.52
+119,Patricia,Smith,patricia.smith119@outlook.com,+1-215-566-4898,2025-08-08,42,United States,Sales,64190.43
+120,Robert,Balogun,robert.balogun120@gmail.com,+1-963-265-8802,2024-01-11,45,France,Marketing,84720.6
+121,Linda,Uzo,linda.uzo121@gmail.com,+1-944-874-9543,2022-05-20,51,United States,Engineering,144844.54
+122,Ifeoma,Eze,ifeoma.eze122@companymail.com,+1-902-310-9032,2023-12-22,26,United Kingdom,Operations,101912.72
+123,John,Jones,john.jones123@yahoo.com,+1-839-848-9984,2022-08-24,46,Australia,Human Resources,84908.7
+124,Karen,Balogun,karen.balogun124@gmail.com,+1-918-317-4522,2023-10-28,50,Canada,Support,72282.48
+125,Joseph,Eze,joseph.eze125@companymail.com,+1-947-297-6120,2023-10-15,42,Germany,Operations,139895.18
+126,Ngozi,Okoro,ngozi.okoro126@gmail.com,+1-293-287-2527,2023-11-04,28,Kenya,Sales,96200.78
+127,Charles,Bello,charles.bello127@yahoo.com,+1-886-325-7730,2022-12-19,64,India,Engineering,141523.85
+128,Karen,Martinez,karen.martinez128@yahoo.com,+1-306-791-9313,2021-05-21,31,South Africa,Finance,128200.23
+129,Barbara,Bello,barbara.bello129@yahoo.com,+1-317-980-5564,2025-06-09,36,India,Engineering,101989.44
+130,Ngozi,Rodriguez,ngozi.rodriguez130@gmail.com,+1-384-479-6062,2022-10-23,44,United States,Sales,130684.9
+131,Charles,Eze,charles.eze131@gmail.com,+1-345-958-1502,2020-01-11,55,Canada,Support,81181.57
+132,David,Garcia,david.garcia132@yahoo.com,+1-519-938-6314,2025-05-13,60,United Kingdom,Engineering,52113.79
+133,Bola,Uzo,bola.uzo133@gmail.com,+1-890-283-5458,2023-12-20,64,India,Research,101778.36
+134,Susan,Rodriguez,susan.rodriguez134@outlook.com,+1-973-724-2864,2022-11-14,49,United Kingdom,Human Resources,109603.97
+135,Charles,Okoro,charles.okoro135@yahoo.com,+1-246-425-7475,2025-09-20,25,United States,Finance,68156.13
+136,Michael,Jones,michael.jones136@yahoo.com,+1-496-535-2965,2019-02-01,53,India,Sales,49210.43
+137,Sarah,Davis,sarah.davis137@yahoo.com,+1-273-606-1693,2023-11-22,23,South Africa,Marketing,129832.1
+138,Charles,Balogun,charles.balogun138@companymail.com,+1-926-855-7843,2022-03-31,29,India,Engineering,141281.97
+139,Jennifer,Uzo,jennifer.uzo139@companymail.com,+1-906-570-2443,2023-11-24,28,Canada,Support,99775.84
+140,Thomas,Williams,thomas.williams140@companymail.com,+1-517-963-6562,2021-06-26,43,Nigeria,Marketing,91153.16
+141,Patricia,Nwosu,patricia.nwosu141@outlook.com,+1-994-557-6752,2026-03-28,31,Canada,Marketing,51108.86
+142,Michael,Garcia,michael.garcia142@outlook.com,+1-978-977-2234,2020-12-26,62,South Africa,Research,117989.04
+143,Bola,Abubakar,bola.abubakar143@companymail.com,+1-897-778-6295,2026-01-13,42,Nigeria,Research,42511.49
+144,Joseph,Martinez,joseph.martinez144@yahoo.com,+1-805-257-6766,2024-09-09,26,Germany,Research,84710.53
+145,Mary,Adeyemi,mary.adeyemi145@yahoo.com,+1-278-860-2479,2025-11-24,60,France,Support,85898.28
+146,Sarah,Johnson,sarah.johnson146@companymail.com,+1-785-867-4084,2022-08-09,60,South Africa,Sales,140349.46
+147,Joseph,Brown,joseph.brown147@yahoo.com,+1-931-286-9266,2026-03-31,33,United States,Finance,112838.39
+148,Joseph,Nwosu,joseph.nwosu148@outlook.com,+1-572-581-5634,2023-05-06,48,Kenya,Engineering,121814.96
+149,Chidi,Okafor,chidi.okafor149@gmail.com,+1-537-296-7333,2022-03-09,38,Australia,Sales,71669.82
+150,Charles,Jones,charles.jones150@yahoo.com,+1-517-871-7421,2020-06-12,60,United Kingdom,Human Resources,96481.43
+151,Chidi,Okafor,chidi.okafor151@outlook.com,+1-886-919-9624,2020-01-18,63,India,Operations,37005.36
+152,Elizabeth,Garcia,elizabeth.garcia152@outlook.com,+1-549-984-8967,2021-02-25,36,Nigeria,Sales,43488.16
+153,Ifeoma,Brown,ifeoma.brown153@gmail.com,+1-877-544-3147,2025-09-12,46,Nigeria,Sales,54893.06
+154,Adaeze,Uzo,adaeze.uzo154@outlook.com,+1-938-648-1715,2023-08-10,45,Canada,Research,102165.5
+155,Bola,Chukwu,bola.chukwu155@outlook.com,+1-746-444-6070,2024-04-05,34,Kenya,Research,85784.8
+156,Elizabeth,Eze,elizabeth.eze156@companymail.com,+1-365-404-3267,2021-10-21,25,South Africa,Operations,95999.48
+157,Patricia,Nwosu,patricia.nwosu157@gmail.com,+1-491-285-3626,2022-01-22,50,France,Sales,126415.14
+158,John,Davis,john.davis158@companymail.com,+1-557-227-7797,2019-08-07,47,France,Operations,60935.59
+159,John,Adeyemi,john.adeyemi159@outlook.com,+1-228-526-2623,2026-04-16,43,Nigeria,Sales,39213.35
+160,Chinedu,Okoro,chinedu.okoro160@outlook.com,+1-977-922-8685,2024-01-12,61,United States,Marketing,37090.43
+161,Michael,Jones,michael.jones161@companymail.com,+1-313-994-5720,2021-08-31,41,United Kingdom,Engineering,61228.35
+162,Chidi,Uzo,chidi.uzo162@companymail.com,+1-264-313-9189,2025-09-10,56,United States,Finance,114039.88
+163,Elizabeth,Balogun,elizabeth.balogun163@gmail.com,+1-829-561-4941,2025-05-26,48,Nigeria,Marketing,92583.3
+164,Barbara,Williams,barbara.williams164@gmail.com,+1-599-681-1713,2026-02-16,46,Kenya,Human Resources,117204.83
+165,Barbara,Williams,barbara.williams165@yahoo.com,+1-446-950-2698,2025-07-11,43,Nigeria,Engineering,73752.9
+166,David,Garcia,david.garcia166@companymail.com,+1-912-690-3986,2020-07-06,26,South Africa,Engineering,67278.68
+167,Mary,Miller,mary.miller167@gmail.com,+1-523-517-9444,2023-06-20,56,South Africa,Human Resources,39028.28
+168,Chidi,Miller,chidi.miller168@yahoo.com,+1-565-999-1783,2026-05-09,43,Germany,Marketing,122927.67
+169,Susan,Eze,susan.eze169@companymail.com,+1-595-547-4060,2024-07-25,53,Kenya,Human Resources,123126.29
+170,Emeka,Balogun,emeka.balogun170@gmail.com,+1-640-816-3956,2025-02-12,40,Kenya,Marketing,43807.58
+171,Ngozi,Martinez,ngozi.martinez171@yahoo.com,+1-656-817-7981,2020-11-13,50,Kenya,Research,39659.07
+172,Ifeoma,Adeyemi,ifeoma.adeyemi172@companymail.com,+1-481-854-1939,2019-11-04,64,India,Operations,91439.46
+173,Emeka,Garcia,emeka.garcia173@gmail.com,+1-346-822-8179,2019-05-23,30,United Kingdom,Finance,120636.69
+174,Barbara,Adeyemi,barbara.adeyemi174@companymail.com,+1-780-233-3513,2026-08-13,50,Kenya,Operations,83833.32
+175,John,Abubakar,john.abubakar175@outlook.com,+1-742-575-7521,2022-07-11,63,Germany,Finance,140657.21
+176,James,Garcia,james.garcia176@companymail.com,+1-730-596-2929,2021-12-08,38,South Africa,Finance,144600.16
+177,Elizabeth,Okoro,elizabeth.okoro177@outlook.com,+1-325-338-2213,2024-01-26,33,South Africa,Marketing,124156.45
+178,Ifeoma,Okafor,ifeoma.okafor178@yahoo.com,+1-926-266-9882,2022-04-04,41,Nigeria,Sales,122306.6
+179,Thomas,Davis,thomas.davis179@gmail.com,+1-405-342-4878,2024-07-16,23,Kenya,Operations,86414.64
+180,Sarah,Jones,sarah.jones180@gmail.com,+1-267-516-7523,2024-05-14,55,India,Support,125567.33
+181,John,Jones,john.jones181@yahoo.com,+1-857-275-8372,2024-03-23,65,France,Operations,49116.81
+182,Amaka,Bello,amaka.bello182@outlook.com,+1-986-332-8088,2024-08-21,25,United Kingdom,Sales,68453.7
+183,Jennifer,Okafor,jennifer.okafor183@outlook.com,+1-554-731-5653,2019-11-20,38,Canada,Human Resources,48768.73
+184,Elizabeth,Uzo,elizabeth.uzo184@gmail.com,+1-714-856-3762,2025-08-21,59,Nigeria,Sales,107460.62
+185,Emeka,Uzo,emeka.uzo185@yahoo.com,+1-777-242-1464,2019-11-29,24,Australia,Human Resources,106624.3
+186,Bola,Abubakar,bola.abubakar186@companymail.com,+1-832-854-1496,2024-08-01,62,France,Human Resources,105609.8
+187,Elizabeth,Okoro,elizabeth.okoro187@outlook.com,+1-901-615-5873,2024-02-01,26,United States,Sales,83356.6
+188,Jessica,Chukwu,jessica.chukwu188@outlook.com,+1-548-821-3353,2022-07-04,42,Kenya,Support,49384.28
+189,Barbara,Nwosu,barbara.nwosu189@gmail.com,+1-526-447-8642,2020-05-16,39,South Africa,Finance,50496.54
+190,Mary,Martinez,mary.martinez190@companymail.com,+1-830-628-5067,2020-10-16,42,Australia,Operations,55881.75
+191,Jennifer,Okoro,jennifer.okoro191@companymail.com,+1-710-515-9148,2019-04-05,27,India,Research,141335.53
+192,Michael,Abubakar,michael.abubakar192@yahoo.com,+1-249-251-5609,2024-07-20,60,South Africa,Human Resources,94035.98
+193,Ifeoma,Brown,ifeoma.brown193@companymail.com,+1-337-470-6992,2023-07-10,45,United States,Support,40627.35
+194,Sarah,Miller,sarah.miller194@yahoo.com,+1-766-495-2204,2023-05-02,54,South Africa,Human Resources,125784.24
+195,Karen,Uzo,karen.uzo195@gmail.com,+1-331-299-7453,2023-03-09,43,France,Operations,118046.17
+196,Michael,Uzo,michael.uzo196@companymail.com,+1-712-241-1742,2019-06-09,30,Kenya,Research,92126.6
+197,Robert,Uzo,robert.uzo197@outlook.com,+1-535-827-6218,2020-10-27,47,Australia,Human Resources,100309.71
+198,Thomas,Nwosu,thomas.nwosu198@companymail.com,+1-925-776-5911,2024-04-29,23,Kenya,Operations,109118.7
+199,Susan,Abubakar,susan.abubakar199@yahoo.com,+1-942-904-1436,2025-09-10,52,Germany,Finance,114354.01
+200,Charles,Okoro,charles.okoro200@outlook.com,+1-736-844-7229,2020-08-28,65,Canada,Engineering,97982.73
